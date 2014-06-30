@@ -1,7 +1,11 @@
 {
   "name": "barbershop",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "express": "^4.4.5",
+    "gzippo": "^0.2.0"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-copy": "~0.5.0",
@@ -28,5 +32,23 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  }
+  },
+  "description": "testing out the waters",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ab75173/ballstonbarbershop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ab75173/ballstonbarbershop/issues"
+  },
+  "homepage": "https://github.com/ab75173/ballstonbarbershop"
 }
